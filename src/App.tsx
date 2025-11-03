@@ -6,6 +6,7 @@ import Footer from "./components/sections/footer";
 import Header from "./components/sections/header";
 import HeroSection from "./components/sections/hero-section";
 import { OurStory } from "./components/sections/our-story";
+import PreLoading from "./components/sections/pre-loading";
 import { WhereWhen } from "./components/sections/where-when";
 
 export default function App() {
@@ -13,6 +14,7 @@ export default function App() {
 
   return (
     <main>
+      <PreLoading />
       <Header />
       <HeroSection />
       <OurStory />
