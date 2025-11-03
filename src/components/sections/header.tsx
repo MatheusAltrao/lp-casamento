@@ -12,7 +12,7 @@ export default function Header() {
         <nav>
           <ul className="lg:flex hidden items-center gap-4">
             {HEADER_LINKS.map((link, index) => (
-              <li className="text-sm  text-white transition-colors" key={index}>
+              <li className="text-sm  text-white transition-colors hover:underline underline-offset-4" key={index}>
                 <a href={link.href}>{link.label}</a>
               </li>
             ))}
