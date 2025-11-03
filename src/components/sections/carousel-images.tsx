@@ -14,7 +14,7 @@ export function CarouselImages() {
     "/image-9.jpeg",
   ];
   return (
-    <div className="relative overflow-hidden py-20 px-10">
+    <div data-aos="fade-up" className="relative overflow-hidden py-20 px-10">
       <Carousel
         opts={{
           align: "start",

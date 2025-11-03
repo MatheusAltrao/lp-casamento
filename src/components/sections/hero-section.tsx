@@ -1,6 +1,6 @@
 export default function HeroSection() {
   return (
-    <section id="home" className=" pt-24 pb-16 ">
+    <section id="home" data-aos="fade-up" className=" h-screen pt-40 pb-16 ">
       <div className="container mx-auto px-4">
         <div className="relative max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center">

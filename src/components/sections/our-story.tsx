@@ -1,6 +1,6 @@
 export function OurStory() {
   return (
-    <section id="story" className="py-20 border-t ">
+    <section id="story" data-aos="fade-up" className="py-20 border-t  ">
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="font-cormorant text-5xl  mb-8 text-balance  ">Nossa História</h2>

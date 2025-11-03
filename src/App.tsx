@@ -1,3 +1,5 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
 import ActionsButtons from "./components/sections/actions-buttons";
 import { CarouselImages } from "./components/sections/carousel-images";
 import Footer from "./components/sections/footer";
@@ -7,6 +9,8 @@ import { OurStory } from "./components/sections/our-story";
 import { WhereWhen } from "./components/sections/where-when";
 
 export default function App() {
+  AOS.init();
+
   return (
     <main>
       <Header />

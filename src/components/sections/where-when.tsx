@@ -2,7 +2,7 @@ import { Clock, MapPin, Wine } from "lucide-react";
 
 export function WhereWhen() {
   return (
-    <section id="where-when" className="py-20 border-t ">
+    <section data-aos="fade-up" id="where-when" className="py-20 border-t ">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className=" font-cormorant text-5xl text-primary text-center mb-16 text-balance">Onde e Quando?</h2>

@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 
 export default function ActionsButtons() {
   return (
-    <section id="rsvp" className="py-16  border-y">
+    <section id="rsvp" data-aos="fade-up" className="py-16  border-y">
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-6">
           <div className="bg-primary/10 rounded-2xl p-8 text-center">
