@@ -5,18 +5,18 @@ export function WhereWhen() {
     <section id="where-when" className="py-20 border-t ">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className=" font-cormorant text-5xl text-wedding-wine text-center mb-16 text-balance">Onde e Quando?</h2>
+          <h2 className=" font-cormorant text-5xl text-primary text-center mb-16 text-balance">Onde e Quando?</h2>
 
           <div className="grid md:grid-cols-2 gap-12">
             <div className="space-y-8">
               <div className="flex gap-4">
                 <div className="shrink-0">
-                  <div className="w-16 h-16 rounded-full bg-wedding-wine/10 flex items-center justify-center">
-                    <MapPin className="w-8 h-8 text-wedding-wine" />
+                  <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center">
+                    <MapPin className="w-8 h-8  text-primary" />
                   </div>
                 </div>
                 <div>
-                  <h3 className="font-cormorant text-2xl text-wedding-wine mb-2 text-primary-400">Cerimônia</h3>
+                  <h3 className="font-cormorant text-2xl mb-2 text-primary-400">Cerimônia</h3>
                   <p className="text-wedding-text leading-relaxed mb-2">
                     <strong className="font-cormorant text-primary">Igreja Nossa Senhora da Paz</strong>
                   </p>
@@ -25,7 +25,7 @@ export function WhereWhen() {
                     <br />
                     São Paulo, SP
                   </p>
-                  <div className="flex items-center gap-2 mt-3 text-wedding-wine">
+                  <div className="flex items-center gap-2 mt-3 text-primary">
                     <Clock className="w-5 h-5" />
                     <span className="font-semibold">15:00</span>
                   </div>
@@ -34,12 +34,12 @@ export function WhereWhen() {
 
               <div className="flex gap-4">
                 <div className="shrink-0">
-                  <div className="w-16 h-16 rounded-full bg-wedding-wine/10 flex items-center justify-center">
-                    <Wine className="w-8 h-8 text-wedding-wine" />
+                  <div className="w-16 h-16 rounded-full bg-secondary/10 flex items-center justify-center">
+                    <Wine className="w-8 h-8 text-secondary" />
                   </div>
                 </div>
                 <div>
-                  <h3 className="font-cormorant text-2xl text-wedding-wine mb-2 text-secondary-400">Recepção</h3>
+                  <h3 className="font-cormorant text-2xl text-secbg-secondary mb-2 text-secondary-400">Recepção</h3>
                   <p className="text-wedding-text leading-relaxed mb-2">
                     <strong className="font-cormorant text-secondary">Espaço Jardim das Rosas</strong>
                   </p>
@@ -48,7 +48,7 @@ export function WhereWhen() {
                     <br />
                     São Paulo, SP
                   </p>
-                  <div className="flex items-center gap-2 mt-3 text-wedding-wine">
+                  <div className="flex items-center gap-2 mt-3 text-secondary">
                     <Clock className="w-5 h-5" />
                     <span className="font-semibold">17:00</span>
                   </div>
