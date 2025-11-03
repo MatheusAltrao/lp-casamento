@@ -69,7 +69,7 @@ export default function CountDown() {
         <p className="text-lg text-muted-foreground mb-20">Faltam apenas alguns momentos para o nosso grande dia!</p>
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 relative">
-          <div className="absolute h-[120px] -top-[100px] lg:h-[200px] lg:-top-[170px] right-0">
+          <div className="absolute h-[120px] w-[120px] -top-[100px] lg:h-[200px] lg:w-[200px]  lg:-top-[170px] right-0">
             <img src="/gatos.png" className="w-full h-full" alt="gatos" />
           </div>
           {timeUnits.map((unit) => (
