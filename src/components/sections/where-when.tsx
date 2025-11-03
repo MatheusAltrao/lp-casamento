@@ -4,7 +4,7 @@ export function WhereWhen() {
   return (
     <section data-aos="fade-up" id="where-when" className="py-20 border-t ">
       <div className="container mx-auto px-4">
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-[1200px] mx-auto">
           <h2 className=" font-cormorant text-5xl text-primary text-center mb-16 text-balance">Onde e Quando?</h2>
 
           <div className="grid md:grid-cols-2 gap-12">
