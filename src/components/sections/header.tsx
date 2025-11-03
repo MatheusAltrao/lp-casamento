@@ -5,12 +5,14 @@ export default function Header() {
   return (
     <header className=" bg-primary p-4">
       <div className="flex items-center justify-between w-full max-w-[1200px] mx-auto">
-        <h1 className="text-white text-xl font-semibold font-cormorant">Maria Luiza & Matheus</h1>
+        <a href="#home">
+          <h1 className="text-white text-xl font-semibold font-cormorant">Maria Luiza & Matheus</h1>
+        </a>
 
         <nav>
           <ul className="lg:flex hidden items-center gap-4">
-            {HEADER_LINKS.map((link) => (
-              <li className=" text-sm  text-white transition-colors" key={link.href}>
+            {HEADER_LINKS.map((link, index) => (
+              <li className="text-sm  text-white transition-colors" key={index}>
                 <a href={link.href}>{link.label}</a>
               </li>
             ))}

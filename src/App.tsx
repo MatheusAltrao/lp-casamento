@@ -15,7 +15,6 @@ export default function App() {
       <ActionsButtons />
       <CarouselImages />
       <WhereWhen />
-      {/*  <MessageForm /> */}
       <Footer />
     </main>
   );

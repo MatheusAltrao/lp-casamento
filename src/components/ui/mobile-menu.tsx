@@ -19,10 +19,10 @@ export default function MobileMenu() {
 
         <nav>
           <ul className="flex  flex-col  items-center gap-2 text-sm px-4 ">
-            {HEADER_LINKS.map((link) => (
+            {HEADER_LINKS.map((link, index) => (
               <a href={link.href} className="w-full">
-                <Button variant={"link"} className="w-full " key={link.href}>
-                  <a>{link.label}</a>
+                <Button variant={"link"} className="w-full " key={index}>
+                  {link.label}
                 </Button>
               </a>
             ))}
