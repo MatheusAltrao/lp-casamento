@@ -68,7 +68,10 @@ export default function CountDown() {
         <h2 className="font-cormorant text-5xl  mb-4 text-primary">Contagem Regressiva</h2>
         <p className="text-lg text-muted-foreground mb-12">Faltam apenas alguns momentos para o nosso grande dia!</p>
 
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 relative">
+          <div className="absolute h-[200px] -top-[170px] right-0">
+            <img src="/gatos.png" className="w-full h-full" alt="" />
+          </div>
           {timeUnits.map((unit) => (
             <div key={unit.label} className="bg-background rounded-2xl p-6 shadow-lg border border-primary-200">
               <div className="font-cormorant text-5xl md:text-6xl font-bold text-primary mb-2">{String(unit.value).padStart(2, "0")}</div>
