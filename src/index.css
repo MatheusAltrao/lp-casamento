@@ -100,7 +100,13 @@
   * {
     @apply border-border outline-ring/50;
   }
+
+  html {
+    scroll-padding-top: 40px;
+    @apply scroll-smooth;
+  }
+
   body {
-    @apply bg-background text-foreground scroll-smooth;
+    @apply bg-background text-foreground;
   }
 }
