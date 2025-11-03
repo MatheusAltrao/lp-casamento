@@ -70,7 +70,7 @@ export default function CountDown() {
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 relative">
           <div className="absolute h-[120px] -top-[100px] lg:h-[200px] lg:-top-[170px] right-0">
-            <img src="/gatos.png" className="w-full h-full" alt="" />
+            <img src="/gatos.png" className="w-full h-full" alt="gatos" />
           </div>
           {timeUnits.map((unit) => (
             <div key={unit.label} className="bg-background rounded-2xl p-6 shadow-lg border border-primary-200">
