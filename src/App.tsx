@@ -2,6 +2,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import ActionsButtons from "./components/sections/actions-buttons";
 import { CarouselImages } from "./components/sections/carousel-images";
+import CountDown from "./components/sections/countdown";
 import Footer from "./components/sections/footer";
 import Header from "./components/sections/header";
 import HeroSection from "./components/sections/hero-section";
@@ -18,6 +19,7 @@ export default function App() {
       <Header />
       <HeroSection />
       <OurStory />
+      <CountDown />
       <ActionsButtons />
       <CarouselImages />
       <WhereWhen />
