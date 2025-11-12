@@ -3,8 +3,8 @@ import MobileMenu from "../ui/mobile-menu";
 
 export default function Header() {
   return (
-    <header className=" bg-background border-b p-4 fixed top-0 left-0 w-full z-20">
-      <div className="flex items-center justify-between w-full max-w-[1200px] mx-auto">
+    <header className=" bg-background border-b fixed top-0 left-0 w-full z-20">
+      <div className="flex items-center justify-between w-full max-w-[1200px] mx-auto p-4 ">
         <a href="#home">
           <h1 className=" text-xl font-semibold font-cormorant">Maria Luiza & Matheus</h1>
         </a>
