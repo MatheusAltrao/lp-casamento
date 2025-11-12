@@ -9,6 +9,8 @@ export default function PreLoading() {
   const [isHidden, setIsHidden] = useState(false);
 
   useEffect(() => {
+    document.body.style.overflow = "hidden";
+
     const tl = gsap.timeline();
 
     gsap.set(iconRefs.current, { opacity: 0, x: -20 });
@@ -65,6 +67,8 @@ export default function PreLoading() {
         duration: 0.5,
         ease: "power2.inOut",
         onComplete: () => {
+          // Remove overflow hidden do body
+          document.body.style.overflow = "";
           setIsHidden(true);
         },
       },
@@ -72,6 +76,8 @@ export default function PreLoading() {
     );
 
     return () => {
+      // Cleanup: remove overflow hidden se o componente desmontar
+      document.body.style.overflow = "";
       tl.kill();
     };
   }, []);
@@ -79,23 +85,25 @@ export default function PreLoading() {
   if (isHidden) return null;
 
   return (
-    <div ref={containerRef} className="min-h-screen fixed inset-0 bg-background z-50 flex items-center justify-center flex-col gap-2 ">
-      <div className="flex items-center justify-center relative w-[60px] h-[60px]">
-        {ICONS_LOADING.map((icon, index) => (
-          <span
-            key={index}
-            ref={(el) => {
-              iconRefs.current[index] = el;
-            }}
-            className="text-4xl absolute inset-0 flex items-center justify-center"
-          >
-            {icon}
-          </span>
-        ))}
-      </div>
+    <div ref={containerRef} className="min-h-screen fixed inset-0 bg-background z-50 pt-[20vh]  ">
+      <div className="flex items-center justify-center flex-col gap-2">
+        <div className="flex items-center justify-center relative w-[60px] h-[60px]">
+          {ICONS_LOADING.map((icon, index) => (
+            <span
+              key={index}
+              ref={(el) => {
+                iconRefs.current[index] = el;
+              }}
+              className="text-4xl absolute inset-0 flex items-center justify-center"
+            >
+              {icon}
+            </span>
+          ))}
+        </div>
 
-      <div className="h-1 rounded-full w-[190px] bg-zinc-200 overflow-hidden">
-        <div ref={progressBarRef} className="bg-linear-to-r from-primary to-secondary w-0 h-full" />
+        <div className="h-1 rounded-full w-[190px] bg-zinc-200 overflow-hidden">
+          <div ref={progressBarRef} className="bg-linear-to-r from-primary to-secondary w-0 h-full" />
+        </div>
       </div>
     </div>
   );
