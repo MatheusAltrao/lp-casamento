@@ -2,7 +2,7 @@ import { Heart } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer data-aos="fade-up" className="py-12 px-4 border-t">
+    <footer className="py-12 px-4 border-t">
       <div className="text-xs text-gray-500 pt-4 flex items-center justify-center gap-2">
         <p>Feito com</p>
         <div className="flex ">

@@ -10,8 +10,8 @@
   --radius-xl: calc(var(--radius) + 4px);
 
   --font-sans: "Inter", system-ui, sans-serif;
-  --font-cormorant: "Cormorant SC", serif;
-
+  /*  --font-cormorant: "Cormorant SC", serif;
+ */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
