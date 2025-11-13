@@ -9,7 +9,11 @@ export default function ActionsButtons() {
           <Heart className="w-12 h-12 mx-auto mb-4 text-primary-400" />
           <h3 className="font-cormorant text-2xl mb-3 text-primary ">Confirmar Presença</h3>
           <p className="mb-6 text-muted-foreground leading-relaxed">Sua presença é o nosso maior presente! Por favor, confirme até 15 de março.</p>
-          <a target="_blank" rel="noopener noreferrer" href="https://wa.me/556791108850?text=Olá%20Maria%20Luiza,%20gostaria%20de%20confirmar%20a%20minha%20presença">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://wa.me/556791108850?text=Olá%20Maria%20Luiza,%20gostaria%20de%20confirmar%20a%20minha%20presença"
+          >
             <Button size="lg">Confirmar agora</Button>
           </a>
         </div>
