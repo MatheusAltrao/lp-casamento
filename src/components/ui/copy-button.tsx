@@ -9,6 +9,7 @@ interface CopyButtonProps {
 
 export default function CopyButton({ text }: CopyButtonProps) {
   const [isCopied, setIsCopied] = useState(false);
+  const buttonText = isCopied ? "Copiado!" : "Copiar Chave PIX";
 
   const handleCopy = async () => {
     try {
@@ -22,8 +23,6 @@ export default function CopyButton({ text }: CopyButtonProps) {
       console.error("Failed to copy text: ", err);
     }
   };
-
-  const buttonText = isCopied ? "Copiado!" : "Copiar Chave PIX";
 
   return (
     <Button onClick={handleCopy} className="w-full ">
