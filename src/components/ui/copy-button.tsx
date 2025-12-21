@@ -14,7 +14,10 @@ export default function CopyButton({ text }: CopyButtonProps) {
     try {
       await navigator.clipboard.writeText(text);
       setIsCopied(true);
-      setTimeout(() => toast.success("Texto copiado!"), 2000);
+      toast.success("Texto copiado!");
+      setTimeout(() => {
+        setIsCopied(false);
+      }, 2000);
     } catch (err) {
       console.error("Failed to copy text: ", err);
     }
