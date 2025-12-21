@@ -1,7 +1,6 @@
-import { Button } from "@/components/ui/button";
+import CopyButton from "@/components/ui/copy-button";
 import { GIFTS } from "@/consts/gifts";
 import { createFileRoute } from "@tanstack/react-router";
-import { Copy } from "lucide-react";
 
 export const Route = createFileRoute("/gifts")({
   component: Gifts,
@@ -25,16 +24,16 @@ function Gifts() {
               <div className="relative aspect-4/3 overflow-hidden bg-muted">
                 <img src={gift.image} alt={gift.title} className="w-full h-full object-cover " />
               </div>
-              <div className="text-left p-2 space-y-1">
-                <h3 className=" font-bold  ">{gift.title}</h3>
-                <p className="text-muted-foreground text-sm  ">{gift.description}</p>
+              <div className="text-left p-2 space-y-2">
+                <p className="font-semibold text-primary text-xl">{gift.price.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}</p>
+                <div className="space-y-1">
+                  <h3 className=" font-medium leading-5  ">{gift.title}</h3>
+                  <p className="text-muted-foreground text-sm  ">{gift.description}</p>
+                </div>
               </div>
             </div>
             <div className="p-2">
-              <Button className="w-full ">
-                <Copy size={20} />
-                Copiar Chave PIX
-              </Button>
+              <CopyButton text={gift.title} />
             </div>
           </div>
         ))}
