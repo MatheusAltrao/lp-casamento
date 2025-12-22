@@ -1,3 +1,4 @@
+import { Link } from "@tanstack/react-router";
 import { Gift, Heart } from "lucide-react";
 import { Button } from "../ui/button";
 
@@ -22,9 +23,11 @@ export default function ActionsButtons() {
           <Gift className="w-12 h-12 mx-auto mb-4 text-secondary-400" />
           <h3 className="font-cormorant text-2xl mb-3 text-secondary">Lista de Presentes</h3>
           <p className="mb-6 text-muted-foreground leading-relaxed">Se desejar nos presentear, preparamos uma lista especial com muito carinho.</p>
-          <Button variant={"secondary"} size="lg">
-            Ainda não disponível
-          </Button>
+          <Link to="/gifts">
+            <Button variant={"secondary"} size="lg">
+              Ver presentes
+            </Button>
+          </Link>
         </div>
       </div>
     </section>
