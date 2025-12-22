@@ -1,13 +1,14 @@
 import { HEADER_LINKS } from "@/consts/header-links";
+import { Link } from "@tanstack/react-router";
 import MobileMenu from "../ui/mobile-menu";
 
 export default function Header() {
   return (
     <header className=" bg-background border-b fixed top-0 left-0 w-full z-20">
       <div className="flex items-center justify-between w-full max-w-[1200px] mx-auto p-4 ">
-        <a href="#home">
+        <Link to="/">
           <h1 className=" text-xl font-semibold font-cormorant">Maria Luiza & Matheus</h1>
-        </a>
+        </Link>
 
         <nav>
           <ul className="lg:flex hidden items-center gap-4">
