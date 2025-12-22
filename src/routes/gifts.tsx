@@ -12,7 +12,9 @@ export const Route = createFileRoute("/gifts")({
 function Gifts() {
   const [searchTerm, setSearchTerm] = useState("");
 
-  const filteredGifts = GIFTS.filter(
+  const randomGifts = GIFTS.sort(() => 0.5 - Math.random());
+
+  const filteredGifts = randomGifts.filter(
     (gift) =>
       gift.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
       gift.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
