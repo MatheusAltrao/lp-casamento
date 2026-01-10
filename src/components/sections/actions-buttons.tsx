@@ -4,8 +4,8 @@ import { Button } from "../ui/button";
 
 export default function ActionsButtons() {
   return (
-    <section id="rsvp" data-aos="fade-up" className="py-16  border-y">
-      <div className="max-w-[1200px] mx-auto grid md:grid-cols-2 gap-6 px-4">
+    <section id="rsvp" className="py-20  border-y">
+      <div data-aos="fade-up" className="max-w-[1200px] mx-auto grid md:grid-cols-2 gap-6 px-4">
         <div className="bg-primary/10 rounded-2xl p-8 text-center">
           <Heart className="w-12 h-12 mx-auto mb-4 text-primary-400" />
           <h3 className="font-cormorant text-2xl mb-3 text-primary ">Confirmar Presença</h3>
