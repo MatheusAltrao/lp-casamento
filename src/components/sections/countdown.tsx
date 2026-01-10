@@ -65,8 +65,8 @@ export default function CountDown() {
   return (
     <section className="py-20 bg-primary-50">
       <div data-aos="fade-up" className="max-w-[1200px] px-4  mx-auto text-center">
-        <h2 className="font-cormorant text-5xl  mb-4 text-primary">Contagem Regressiva</h2>
-        <p className="text-lg text-muted-foreground mb-20">Faltam apenas alguns momentos para o nosso grande dia!</p>
+        <h2 className="font-cormorant font-cormorant text-3xl md:text-4xl lg:text-5xl  mb-4 text-primary">Contagem Regressiva</h2>
+        <p className=" text-muted-foreground mb-20">Faltam apenas alguns momentos para o nosso grande dia!</p>
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 relative">
           <div className="absolute h-[120px] w-[120px] -top-[100px] lg:h-[200px] lg:w-[200px]  lg:-top-[170px] right-0">

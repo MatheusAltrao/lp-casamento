@@ -1,6 +1,7 @@
 import Header from "@/components/sections/header";
 import CopyButton from "@/components/ui/copy-button";
 import { Input } from "@/components/ui/input";
+import SectionHeader from "@/components/ui/section-header";
 import { GIFTS } from "@/consts/gifts";
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
@@ -25,12 +26,10 @@ function Gifts() {
     <>
       <Header />
       <div className="py-20  bg-background max-w-[1200px] mx-auto text-center px-4 space-y-8">
-        <header className="space-y-4">
-          <h2 className="font-cormorant text-5xl   text-balance text-primary ">Lista de Presentes</h2>
-          <p className="  text-muted-foreground ">
-            Qualquer contribuição será recebida com muito carinho. O gesto já significa muito e tornará esse momento ainda mais especial.
-          </p>
-        </header>
+        <SectionHeader
+          title="Lista de Presentes"
+          description="Qualquer contribuição será recebida com muito carinho. O gesto já significa muito e tornará esse momento ainda mais especial."
+        />
 
         <div className="space-y-4">
           <div>

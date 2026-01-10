@@ -1,14 +1,14 @@
+import SectionHeader from "../ui/section-header";
+
 export function OurStory() {
   return (
     <section id="story" className="py-20 border-y bg-background">
-      <div data-aos="fade-up" className="max-w-[1200px] mx-auto text-center px-4">
-        <div>
-          <h2 className="font-cormorant text-5xl  mb-8 text-balance text-primary ">Nossa História</h2>
-          <p className=" text-lg leading-relaxed mb-16 max-w-3xl mx-auto text-muted-foreground ">
-            Cada grande história de amor começa com um momento especial. A nossa começou quando nossos olhares se cruzaram pela primeira vez, e desde
-            então, cada dia tem sido uma nova página escrita com carinho, cumplicidade e muito amor.
-          </p>
-        </div>
+      <div data-aos="fade-up" className="section-area">
+        <SectionHeader
+          title="Nossa História"
+          description="Cada grande história de amor começa com um momento especial. A nossa começou quando nossos olhares se cruzaram pela primeira vez."
+        />
+
         <div className="grid md:grid-cols-2 gap-12 items-start">
           <div>
             <h3 className=" text-2xl  mb-4 text-primary font-cormorant text-center">Maria Luiza</h3>

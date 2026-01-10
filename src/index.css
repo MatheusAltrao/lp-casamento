@@ -100,7 +100,7 @@
 
 @layer base {
   * {
-    @apply border-border outline-ring/50;
+    @apply border-border outline-ring/50 text-balance antialiased;
   }
 
   html {
@@ -111,4 +111,8 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.section-area {
+  @apply w-full max-w-[1200px] px-4  mx-auto text-center space-y-8;
 }
