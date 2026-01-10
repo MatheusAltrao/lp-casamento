@@ -36,7 +36,7 @@ function Gifts() {
           <div>
             <Input className="w-full bg-muted" placeholder="Pesquisar" value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} />
           </div>
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 lg:gap-4">
+          <div className="grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-4 gap-2 lg:gap-4">
             {filteredGifts.map((gift) => (
               <div key={gift.id} className="border bg-white rounded-md overflow-hidden min-h-[365px] flex flex-col justify-between">
                 <div>
