@@ -13,7 +13,7 @@ export default function ActionsButtons() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://wa.me/556791108850?text=Olá%20Maria%20Luiza,%20gostaria%20de%20confirmar%20a%20minha%20presença"
+            href="https://wa.me/5514997878309?text=Olá,%20gostaria%20de%20confirmar%20a%20minha%20presença%20no%20casamento%20da%20Maria%20e%20do%20Matheus%20no%20dia%2001/05/26"
           >
             <Button size="lg">Confirmar agora</Button>
           </a>
