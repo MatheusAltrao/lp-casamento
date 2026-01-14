@@ -51,7 +51,7 @@ function Gifts() {
                   </div>
                 </div>
                 <div className="p-2">
-                  <CopyButton text={gift.title} />
+                  <CopyButton text={gift.code} />
                 </div>
               </div>
             ))}
