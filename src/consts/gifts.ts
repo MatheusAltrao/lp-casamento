@@ -108,7 +108,7 @@ export const GIFTS = [
   },
   {
     id: 8,
-    title: "Área para os gatos",
+    title: "Areia para os gatos",
     description: "Porque os verdadeiros donos da casa mandam 😼",
     price: 200,
     image: img8,
@@ -148,11 +148,11 @@ export const GIFTS = [
   },
   {
     id: 13,
-    title: "Barulho casa e gente enchendo a lua de mel",
-    description: "Ajude a manter o caos longe 🏝️😂",
-    price: 200,
+    title: "Baralho caso a gente fique entediado na lua de mel",
+    description: "Pra não faltar diversão 🃏😄",
+    price: 50,
     image: img13,
-    code: "00020126580014BR.GOV.BCB.PIX0136f655986f-6318-45bd-8819-13109e18c5b95204000053039865406200.005802BR5924MATHEUS DE PAULA ANTUNES6005BAURU622605221dIpE5X1vySZo3zC5QzNLt6304F45F",
+    code: "00020126580014BR.GOV.BCB.PIX0136f655986f-6318-45bd-8819-13109e18c5b95204000053039865405000.005802BR5924MATHEUS DE PAULA ANTUNES6005BAURU622605221dIpE5X1vySZo3zC5QzNLt6304F45F",
   },
   {
     id: 14,
@@ -188,7 +188,7 @@ export const GIFTS = [
   },
   {
     id: 18,
-    title: "Clareamento dental pro Matheus ficar peixe jogador",
+    title: "Clareamento dental pro Matheus ficar pique jogador",
     description: "Sorriso branco nível comercial 😁✨",
     price: 800,
     image: img18,
@@ -316,15 +316,15 @@ export const GIFTS = [
   },
   {
     id: 34,
-    title: "Kit sexy para o noivo e lua de mel",
+    title: "Kit sexy para o noivo na lua de mel",
     description: "Conteúdo adulto aprovado pelos noivos 😏🔥",
-    price: 200,
+    price: 120,
     image: img34,
-    code: "00020126580014BR.GOV.BCB.PIX0136f655986f-6318-45bd-8819-13109e18c5b95204000053039865406200.005802BR5924MATHEUS DE PAULA ANTUNES6005BAURU622605221dIpE5X1vySZo3zC5QzNLt6304F45F",
+    code: "00020126580014BR.GOV.BCB.PIX0136f655986f-6318-45bd-8819-13109e18c5b95204000053039865401200.005802BR5924MATHEUS DE PAULA ANTUNES6005BAURU622605221dIpE5X1vySZo3zC5QzNLt6304F45F",
   },
   {
     id: 35,
-    title: "Lava louças (mais conhecida como saliva vidas)",
+    title: "Lava louças (mais conhecida como salva vidas)",
     description: "Heroína do lar moderno 🍽️🦸‍♀️",
     price: 1400,
     image: img35,
@@ -332,7 +332,7 @@ export const GIFTS = [
   },
   {
     id: 36,
-    title: "Maquininha com os ubere na viagem da lua de mel",
+    title: "Mãozinha com os ubers na viagem da lua de mel",
     description: "Pra não andar a pé no paraíso 🚕😂",
     price: 200,
     image: img36,
@@ -388,7 +388,7 @@ export const GIFTS = [
   },
   {
     id: 43,
-    title: "Plantas para a varanda da casa",
+    title: "Plantas para a varanda do casal",
     description: "Verde que não reclama 🌱😂",
     price: 200,
     image: img43,
